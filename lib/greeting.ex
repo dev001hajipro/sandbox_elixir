@@ -27,7 +27,7 @@ defmodule Greeting do
   @doc """
   ++
   """
-  def increment(a, b \\1), do: a + b 
+  def increment(a, b \\ 1), do: a + b
 
   @doc """
   パイプ演算子を使う
@@ -35,7 +35,6 @@ defmodule Greeting do
   def pipe(ls) do
     ls
     |> Enum.map(fn x -> x * x end)
-    |> Enum.each(fn x -> IO.puts x end)
+    |> Enum.each(fn x -> IO.puts(x) end)
   end
-
 end

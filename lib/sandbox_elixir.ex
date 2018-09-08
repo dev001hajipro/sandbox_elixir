@@ -1,5 +1,6 @@
 defmodule SandboxElixir do
   import Greeting
+
   @moduledoc """
   Elixir学習サンドボックス
   """
