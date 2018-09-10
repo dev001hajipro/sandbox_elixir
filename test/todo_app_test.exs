@@ -9,4 +9,8 @@ defmodule TodoAppTest do
   test "reset_data" do
     assert TodoApp.reset_data() == []
   end
+
+  test "make_test_data" do
+    assert length(TodoApp.make_test_data()) == 2
+  end
 end

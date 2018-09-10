@@ -29,4 +29,23 @@ defmodule SandboxElixir do
   def hello do
     :world
   end
+
+  def control_case(tpl) do
+    case tpl do
+      {:success, result} -> result
+      {:failure, _} -> :failure
+    end
+  end
+
+  def control_case2(tpl) do
+    case :even do
+      :odd -> "aaa"
+      _ -> "bbb"
+    end
+
+    case tpl do
+      {:ok, value} -> String.length(value)
+      error -> error
+    end
+  end
 end

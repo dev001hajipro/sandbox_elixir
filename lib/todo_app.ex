@@ -14,10 +14,10 @@ defmodule TodoApp do
     []
   end
 
-  def make_data() do
+  def make_test_data() do
     [
-      %{:id => 1, "title" => "Elixirについて", "complated" => false},
-      %{:id => 2, "title" => "Elixirについて", "complated" => false}
+      %{:id => 1, "title" => "Elixirの入門としてTodoアプリを作ろう", "complated" => false},
+      %{:id => 2, "title" => "プロセスを沢山立ち上げよう", "complated" => false}
     ]
   end
 end
