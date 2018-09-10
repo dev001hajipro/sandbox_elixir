@@ -36,6 +36,14 @@ iex.bat -S mix
 > SandboxElixir.hello()
 ```
 
+### シェル上でプロジェクトの再コンパイル
+
+`iex.bat -S mix`でmixプロジェクトをビルドしてElixirのシェルを起動。`recomplie`でプロジェクト全体をコンパイルする。
+
+```powershell
+> recompile
+```
+
 ### コード整形
 
 mixを使っていれば、formatterが付いてくる。
@@ -51,6 +59,8 @@ mix format
 - [Elixir の Enum メモ](https://qiita.com/ohakado/items/9ceee374331feb199544)
 - [挑戦！ Elixirによる並行・分散アプリケーションの作り方【第二言語としてのElixir】](https://employment.en-japan.com/engineerhub/entry/2017/06/19/110000)
 - [https://qiita.com/advent-calendar/2017/elixir-or-phoenix](https://qiita.com/advent-calendar/2017/elixir-or-phoenix)
+
+- [](https://qiita.com/HirofumiTamori/items/b6957686e0ba93006184)
 
 ## Installation
 

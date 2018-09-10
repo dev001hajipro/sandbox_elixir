@@ -3,25 +3,23 @@ defmodule Greeting do
   サンドボックスモジュール
   """
 
+  @greeting "こんにちは"
+
   @doc """
   挨拶
   """
-  def sayhello(name) do
-    IO.puts("Hi #{name}!")
+  def hello(name) do
+    case name do
+      "hi" -> "#{@greeting}"
+      _ -> "Hi #{name}!"
+    end
   end
 
   @doc """
   数値チェック
   """
-  def isnum(n) when is_number(n) do
+  def isnum(n \\ 0) when is_number(n) do
     "integer"
-  end
-
-  @doc """
-  show hello world
-  """
-  def show_helloworld() do
-    IO.puts("hello world!!")
   end
 
   @doc """
@@ -35,6 +33,8 @@ defmodule Greeting do
   def pipe(ls) do
     ls
     |> Enum.map(fn x -> x * x end)
-    |> Enum.each(fn x -> IO.puts(x) end)
   end
+
+  def check_list(ls) when is_list(ls), do: ls
+  def check_list(ls) when is_binary(ls), do: ls
 end

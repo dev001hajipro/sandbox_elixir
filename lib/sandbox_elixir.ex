@@ -1,5 +1,4 @@
 defmodule SandboxElixir do
-  import Greeting
 
   @moduledoc """
   Elixir学習サンドボックス
@@ -17,9 +16,6 @@ defmodule SandboxElixir do
 
   """
   def main do
-    show_helloworld()
-    sayhello("smith")
-    Greeting.pipe(1..5)
     :world
   end
 
