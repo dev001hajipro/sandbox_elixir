@@ -54,6 +54,23 @@ mix format
 
 :kissing_closed_eyes:
 
+## Windowsでのドキュメントの表示
+
+chcpコマンドでコードページを65001(UTF-8)にする
+
+```powershell
+> chcp 65001
+```
+
+```powershell
+iex.bat -S mix
+iex(1)> h Example
+* Example
+
+プロセスの入門
+
+```
+
 ## 参考資料
 
 - [Elixir の Enum メモ](https://qiita.com/ohakado/items/9ceee374331feb199544)
