@@ -9,7 +9,7 @@ defmodule GreetingTest do
 
   test "isnum wight guard" do
     assert "integer" === Greeting.isnum(100)
-    #assert "inte" === Greeting.isnum("aaa")
+    # assert "inte" === Greeting.isnum("aaa")
   end
 
   test "increment" do
@@ -28,8 +28,6 @@ defmodule GreetingTest do
 
   # CaptureIOで出力をキャッチ
   test "output hello" do
-    assert capture_io(fn -> IO.puts "hello" end) == "hello\n"
+    assert capture_io(fn -> IO.puts("hello") end) == "hello\n"
   end
-
-
 end

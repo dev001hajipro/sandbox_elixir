@@ -1,5 +1,4 @@
 defmodule SandboxElixir do
-
   @moduledoc """
   Elixir学習サンドボックス
   """

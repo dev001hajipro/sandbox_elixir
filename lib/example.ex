@@ -3,7 +3,6 @@ defmodule Example do
   プロセスの入門
   """
 
-  # todo:macro
   @doc """
   加算
 
@@ -20,5 +19,4 @@ defmodule Example do
     IO.puts(a + b)
     a + b
   end
-
 end

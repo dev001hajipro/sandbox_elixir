@@ -25,7 +25,8 @@ defmodule SandboxElixir.MixProject do
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"},
       {:mix_test_watch, "~> 0.8", only: :dev, runtime: false},
       {:ex_doc, "~> 0.19", only: :dev, runtime: false},
-      {:earmark, "~> 1.2", only: :dev, runtime: false}
+      {:earmark, "~> 1.2", only: :dev, runtime: false},
+      {:credo, "~> 0.10.0", only: [:dev, :test]}
     ]
   end
 end

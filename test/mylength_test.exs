@@ -7,6 +7,6 @@ defmodule MyLengthTest do
   end
 
   test "length is three." do
-    assert 3 === MyLength.of([1,2,3])
+    assert 3 === MyLength.of([1, 2, 3])
   end
 end

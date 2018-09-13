@@ -10,7 +10,7 @@ defmodule Counter do
   end
 
   def value do
-    Agent.get(__MODULE__, &(&1))
+    Agent.get(__MODULE__, & &1)
   end
 
   def increment do

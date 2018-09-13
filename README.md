@@ -79,6 +79,10 @@ iex(1)> h Example
 
 - [](https://qiita.com/HirofumiTamori/items/b6957686e0ba93006184)
 
+### バイトコード一覧
+
+- [genop.tab](https://github.com/erlang/otp/blob/master/lib/compiler/src/genop.tab)
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed

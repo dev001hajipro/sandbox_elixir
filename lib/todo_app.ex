@@ -1,6 +1,6 @@
 defmodule TodoApp do
   @moduledoc """
-  TODOアプリ
+  アプリ
   """
 
   @doc """
@@ -16,7 +16,7 @@ defmodule TodoApp do
 
   def make_test_data() do
     [
-      %{:id => 1, "title" => "Elixirの入門としてTodoアプリを作ろう", "complated" => false},
+      %{:id => 1, "title" => "Elixirの入門としてアプリを作ろう", "complated" => false},
       %{:id => 2, "title" => "プロセスを沢山立ち上げよう", "complated" => false}
     ]
   end

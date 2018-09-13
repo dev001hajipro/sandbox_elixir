@@ -1,4 +1,7 @@
 defmodule Listener do
+  @moduledoc """
+  spawn_linkを使ったサンプル。
+  """
   def listen do
     receive do
       {:ok, "hello"} -> IO.puts("World")
@@ -30,7 +33,5 @@ defmodule Listener do
     receive do
       {:EXIT, from_pid, reason} -> IO.puts("Exit reason: #{reason} #{inspect(from_pid)}")
     end
-
   end
-
 end
