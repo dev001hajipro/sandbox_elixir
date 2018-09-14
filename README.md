@@ -83,6 +83,10 @@ iex(1)> h Example
 
 - [genop.tab](https://github.com/erlang/otp/blob/master/lib/compiler/src/genop.tab)
 
+### Dialyxir and Dialyzer
+
+- [Dialyxir and Dialyzer](https://elixirschool.com/en/lessons/specifics/debugging/)
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed

@@ -26,7 +26,8 @@ defmodule SandboxElixir.MixProject do
       {:mix_test_watch, "~> 0.8", only: :dev, runtime: false},
       {:ex_doc, "~> 0.19", only: :dev, runtime: false},
       {:earmark, "~> 1.2", only: :dev, runtime: false},
-      {:credo, "~> 0.10.0", only: [:dev, :test]}
+      {:credo, "~> 0.10.0", only: [:dev, :test]},
+      {:dialyxir, "~> 1.0.0-rc.3", only: [:dev], runtime: false}
     ]
   end
 end
