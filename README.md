@@ -52,6 +52,15 @@ mixを使っていれば、formatterが付いてくる。
 mix format
 ```
 
+### ファイル更新の監視と単体テスト実行
+
+mixプロジェクトの依存に`mix_test_watch`を追加して、コンソールで、
+`mix test.watch`を実行するとファイル監視します。
+
+```bash
+> mix test.watch
+```
+
 :kissing_closed_eyes:
 
 ## Windowsでのドキュメントの表示

@@ -20,4 +20,12 @@ defmodule Example do
     IO.puts(a + b)
     a + b
   end
+
+  @spec mycase(a: integer) :: String
+  def mycase(x) do
+
+    case x do
+      1 -> "aaa"
+    end
+  end
 end

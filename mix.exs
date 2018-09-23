@@ -28,7 +28,8 @@ defmodule SandboxElixir.MixProject do
       {:ex_doc, "~> 0.19", only: :dev, runtime: false},
       {:earmark, "~> 1.2", only: :dev, runtime: false},
       {:credo, "~> 0.10.0", only: [:dev, :test]},
-      {:dialyxir, "~> 1.0.0-rc.3", only: [:dev], runtime: false}
+      {:dialyxir, "~> 1.0.0-rc.3", only: [:dev], runtime: false},
+      {:httpoison, "~> 1.3"}
     ]
   end
 end
